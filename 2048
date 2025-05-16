@@ -9,7 +9,7 @@ let LOOKAHEAD_DEPTH = 3;     // <<< 修改这里设置高分等级，推荐2~4
     let gameCount = 0; // 当前已完成的局数
 
     // 更慢的人类化操作延迟（毫秒）
-    function randDelay(min = 200, max = 500) {
+    function randDelay(min = 350, max = 1000) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
