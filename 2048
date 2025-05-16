@@ -1,6 +1,6 @@
 // == AI自动2048==
 // 设置自动进行的最大游戏局数
-let MAX_GAMES = 10;          // <<< 修改这里设置自动玩的局数
+let MAX_GAMES = 2;          // <<< 修改这里设置自动玩的局数
 let LOOKAHEAD_DEPTH = 3;     // <<< 修改这里设置高分等级，推荐2~4
 
 (function() {
